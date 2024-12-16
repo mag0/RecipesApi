@@ -63,8 +63,7 @@
               "RelativeToolTip": "RecipeApi\\Controllers\\RecipeController.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAA9wC8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T14:46:07.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T14:46:07.311Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "RecipeApi\\Entities\\Recipe.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T14:45:36.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T14:45:36.16Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "RecipeApi\\Data\\MongoDbService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T16:57:19.366Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T16:57:19.366Z"
             }
           ]
         }
