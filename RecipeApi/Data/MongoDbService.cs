@@ -1,21 +1,19 @@
-﻿using MongoDB.Driver;
+using MongoDB.Driver;
 
-namespace RecipeApi.Data;
-
-public class MongoDbService
+namespace RecipeApi.Data
 {
-    private readonly IConfiguration _configuration;
-    private readonly IMongoDatabase? _database;
- 
-    public MongoDbService(IConfiguration configuration)
+    public class MongoDbService
     {
-        _configuration = configuration;
+        private readonly IMongoDatabase? _database;
 
-        var connectingString = _configuration.GetConnectionString("DbConnection");
-        var mongoUrl = MongoUrl.Create(connectingString);
-        var mongoClient = new MongoClient(mongoUrl);
-        _database = mongoClient.GetDatabase(mongoUrl.DatabaseName ?? "RecipesDB");
+        public MongoDbService(IConfiguration configuration)
+        {
+            var connectingString = Environment.GetEnvironmentVariable("DB_CONNECTION") ?? configuration.GetConnectionString("DbConnection");
+            var mongoUrl = MongoUrl.Create(connectingString);
+            var mongoClient = new MongoClient(mongoUrl);
+            _database = mongoClient.GetDatabase(mongoUrl.DatabaseName ?? "RecipesDB");
+        }
+
+        public IMongoDatabase? Database => _database;
     }
-
-    public IMongoDatabase? Database => _database;
 }
