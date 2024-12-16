@@ -1,0 +1,8 @@
+[build]
+  publish = "out"
+  command = "dotnet publish -c Release -o out"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/api/:splat"
+  status = 200
