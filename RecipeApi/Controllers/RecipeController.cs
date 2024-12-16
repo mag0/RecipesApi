@@ -1,13 +1,12 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using MongoDB.Driver;
 using RecipeApi.Data;
 using RecipeApi.Entities;
 
 namespace RecipeApi.Controllers;
 
-[Route("api/[controller]")]
 [ApiController]
+[Route("api/[controller]")]
 public class RecipeController : ControllerBase
 {
     private readonly IMongoCollection<Recipe> _recipes;
@@ -35,14 +34,13 @@ public class RecipeController : ControllerBase
     public async Task<ActionResult> Post(Recipe recipe)
     {
         await _recipes.InsertOneAsync(recipe);
-        return CreatedAtAction(nameof(GetById), new {id= recipe.Id}, recipe);
+        return CreatedAtAction(nameof(GetById), new { id = recipe.Id }, recipe);
     }
 
-    [HttpPut]
+    [HttpPut("{id}")]
     public async Task<ActionResult> Put(Recipe recipe)
     {
         var filter = Builders<Recipe>.Filter.Eq(x => x.Id, recipe.Id);
-        
         await _recipes.ReplaceOneAsync(filter, recipe);
         return Ok();
     }
@@ -55,3 +53,4 @@ public class RecipeController : ControllerBase
         return Ok();
     }
 }
+
