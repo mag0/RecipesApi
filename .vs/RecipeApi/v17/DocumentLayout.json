@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\guerr\\source\\repos\\RecipeApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7BB0CC5E-E6F2-450E-A176-99CF95DD9E2E}|RecipeApi\\RecipeApi.csproj|c:\\users\\guerr\\source\\repos\\recipeapi\\recipeapi\\vercel.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7BB0CC5E-E6F2-450E-A176-99CF95DD9E2E}|RecipeApi\\RecipeApi.csproj|solutionrelative:recipeapi\\vercel.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7BB0CC5E-E6F2-450E-A176-99CF95DD9E2E}|RecipeApi\\RecipeApi.csproj|c:\\users\\guerr\\source\\repos\\recipeapi\\recipeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BB0CC5E-E6F2-450E-A176-99CF95DD9E2E}|RecipeApi\\RecipeApi.csproj|solutionrelative:recipeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7BB0CC5E-E6F2-450E-A176-99CF95DD9E2E}|RecipeApi\\RecipeApi.csproj|c:\\users\\guerr\\source\\repos\\recipeapi\\recipeapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{7BB0CC5E-E6F2-450E-A176-99CF95DD9E2E}|RecipeApi\\RecipeApi.csproj|solutionrelative:recipeapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BB0CC5E-E6F2-450E-A176-99CF95DD9E2E}|RecipeApi\\RecipeApi.csproj|c:\\users\\guerr\\source\\repos\\recipeapi\\recipeapi\\vercel.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7BB0CC5E-E6F2-450E-A176-99CF95DD9E2E}|RecipeApi\\RecipeApi.csproj|solutionrelative:recipeapi\\vercel.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7BB0CC5E-E6F2-450E-A176-99CF95DD9E2E}|RecipeApi\\RecipeApi.csproj|c:\\users\\guerr\\source\\repos\\recipeapi\\recipeapi\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +46,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\guerr\\source\\repos\\RecipeApi\\RecipeApi\\Program.cs",
               "RelativeDocumentMoniker": "RecipeApi\\Program.cs",
@@ -59,20 +59,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "vercel.json",
               "DocumentMoniker": "C:\\Users\\guerr\\source\\repos\\RecipeApi\\RecipeApi\\vercel.json",
               "RelativeDocumentMoniker": "RecipeApi\\vercel.json",
               "ToolTip": "C:\\Users\\guerr\\source\\repos\\RecipeApi\\RecipeApi\\vercel.json",
               "RelativeToolTip": "RecipeApi\\vercel.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-12-16T15:15:45.389Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\guerr\\source\\repos\\RecipeApi\\RecipeApi\\appsettings.json",
               "RelativeDocumentMoniker": "RecipeApi\\appsettings.json",
@@ -80,8 +80,7 @@
               "RelativeToolTip": "RecipeApi\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-16T15:15:04.127Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T15:15:04.127Z"
             },
             {
               "$type": "Document",
@@ -109,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MongoDbService.cs",
               "DocumentMoniker": "C:\\Users\\guerr\\source\\repos\\RecipeApi\\RecipeApi\\Data\\MongoDbService.cs",
               "RelativeDocumentMoniker": "RecipeApi\\Data\\MongoDbService.cs",
@@ -117,8 +116,7 @@
               "RelativeToolTip": "RecipeApi\\Data\\MongoDbService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T16:57:19.366Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T16:57:19.366Z"
             }
           ]
         }
