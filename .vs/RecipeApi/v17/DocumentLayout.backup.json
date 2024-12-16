@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\guerr\\source\\repos\\RecipeApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7BB0CC5E-E6F2-450E-A176-99CF95DD9E2E}|RecipeApi\\RecipeApi.csproj|c:\\users\\guerr\\source\\repos\\recipeapi\\recipeapi\\netlify.toml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7BB0CC5E-E6F2-450E-A176-99CF95DD9E2E}|RecipeApi\\RecipeApi.csproj|solutionrelative:recipeapi\\netlify.toml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7BB0CC5E-E6F2-450E-A176-99CF95DD9E2E}|RecipeApi\\RecipeApi.csproj|c:\\users\\guerr\\source\\repos\\recipeapi\\recipeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BB0CC5E-E6F2-450E-A176-99CF95DD9E2E}|RecipeApi\\RecipeApi.csproj|solutionrelative:recipeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +50,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "netlify.toml",
+              "DocumentMoniker": "C:\\Users\\guerr\\source\\repos\\RecipeApi\\RecipeApi\\netlify.toml",
+              "RelativeDocumentMoniker": "RecipeApi\\netlify.toml",
+              "ToolTip": "C:\\Users\\guerr\\source\\repos\\RecipeApi\\RecipeApi\\netlify.toml",
+              "RelativeToolTip": "RecipeApi\\netlify.toml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-16T18:12:12.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "RecipeApi.http",
               "DocumentMoniker": "C:\\Users\\guerr\\source\\repos\\RecipeApi\\RecipeApi\\RecipeApi.http",
               "RelativeDocumentMoniker": "RecipeApi\\RecipeApi.http",
@@ -54,12 +71,11 @@
               "RelativeToolTip": "RecipeApi\\RecipeApi.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-12-16T17:45:10.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T17:45:10.526Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\guerr\\source\\repos\\RecipeApi\\RecipeApi\\Program.cs",
               "RelativeDocumentMoniker": "RecipeApi\\Program.cs",
@@ -72,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\guerr\\source\\repos\\RecipeApi\\RecipeApi\\appsettings.json",
               "RelativeDocumentMoniker": "RecipeApi\\appsettings.json",
@@ -84,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "RecipeController.cs",
               "DocumentMoniker": "C:\\Users\\guerr\\source\\repos\\RecipeApi\\RecipeApi\\Controllers\\RecipeController.cs",
               "RelativeDocumentMoniker": "RecipeApi\\Controllers\\RecipeController.cs",
@@ -96,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Recipe.cs",
               "DocumentMoniker": "C:\\Users\\guerr\\source\\repos\\RecipeApi\\RecipeApi\\Entities\\Recipe.cs",
               "RelativeDocumentMoniker": "RecipeApi\\Entities\\Recipe.cs",
@@ -108,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MongoDbService.cs",
               "DocumentMoniker": "C:\\Users\\guerr\\source\\repos\\RecipeApi\\RecipeApi\\Data\\MongoDbService.cs",
               "RelativeDocumentMoniker": "RecipeApi\\Data\\MongoDbService.cs",
