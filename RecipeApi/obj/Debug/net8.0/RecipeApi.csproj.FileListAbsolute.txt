@@ -36,3 +36,5 @@ C:\Users\guerr\source\repos\RecipeApi\RecipeApi\obj\Debug\net8.0\refint\RecipeAp
 C:\Users\guerr\source\repos\RecipeApi\RecipeApi\obj\Debug\net8.0\RecipeApi.pdb
 C:\Users\guerr\source\repos\RecipeApi\RecipeApi\obj\Debug\net8.0\RecipeApi.genruntimeconfig.cache
 C:\Users\guerr\source\repos\RecipeApi\RecipeApi\obj\Debug\net8.0\ref\RecipeApi.dll
+C:\Users\guerr\source\repos\RecipeApi\RecipeApi\bin\Debug\net8.0\vercel.json
+C:\Users\guerr\source\repos\RecipeApi\RecipeApi\obj\Debug\net8.0\RecipeApi.sourcelink.json

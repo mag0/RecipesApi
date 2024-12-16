@@ -37,22 +37,6 @@
   },
   {
     "ContainingType": "RecipeApi.Controllers.RecipeController",
-    "Method": "Update",
-    "RelativePath": "api/Recipe",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "recipe",
-        "Type": "RecipeApi.Entities.Recipe",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "RecipeApi.Controllers.RecipeController",
     "Method": "GetById",
     "RelativePath": "api/Recipe/{id}",
     "HttpMethod": "GET",
@@ -76,6 +60,27 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "RecipeApi.Controllers.RecipeController",
+    "Method": "Put",
+    "RelativePath": "api/Recipe/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recipe",
+        "Type": "RecipeApi.Entities.Recipe",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "RecipeApi.Controllers.RecipeController",
